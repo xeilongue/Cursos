@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etapa 3 - Curso de Programação</title>
+    <link rel="stylesheet" href="styleetapa.css">
+    <script defer src="script.js"></script> <!-- Para gerenciar a avaliação -->
+</head>
+<body>
+    <header>
+        <h1>Curso de Programação - Etapa 3</h1>
+    </header>
+
+    <div class="container">
+        <!-- Barra de Progresso -->
+        <div class="progress-bar">
+            <div class="progress" style="width: 100%;"></div>
+        </div>
+
+        <!-- Conteúdo da Etapa -->
+        <section class="course-content">
+            <h2>Fundamentos de Algoritmos</h2>
+            <p>Nesta etapa, você aprenderá sobre a construção de algoritmos eficientes, trabalhando com estruturas de dados e funções.</p>
+
+            <video controls width="600">
+                <source src="videos/fundamentos_algoritmos.mp4" type="video/mp4">
+                Seu navegador não suporta a exibição de vídeos.
+            </video>
+
+            <a href="#" class="btn">Finalizar Curso</a>
+        </section>
+
+        <!-- Seção de Avaliação -->
+        <section class="rating-section">
+            <h2>Avalie o Curso</h2>
+            <div class="rating">
+                <!-- Estrelas organizadas da esquerda para a direita -->
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div>
+            <p id="rating-value"></p>
+        </section>        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Curso de Programação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

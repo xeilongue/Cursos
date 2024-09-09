@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Cursos</h1>
+    </header>
+
+    <section class="search-bar">
+        <input type="text" placeholder="Buscar cursos..." id="search">
+        <button type="button" onclick="searchCourses()">Buscar</button>
+    </section>
+
+    <section class="courses-grid">
+        <article class="course">
+            <img src="images/curso1.jpg" alt="Curso 1">
+            <h2>Curso de Programação</h2>
+            <p>Aprenda os fundamentos de programação com uma introdução a diversas linguagens como Python, JavaScript e C++.</p>
+            <a href="cursodetalhado.html" class="btn">Inscrever-se</a>
+        </article>
+        <article class="course">
+            <img src="images/curso2.jpg" alt="Curso 2">
+            <h2>Curso de Design Gráfico</h2>
+            <p>Domine as ferramentas de design e crie projetos visuais impressionantes com o uso de softwares como Photoshop e Illustrator.</p>
+            <a href="#" class="btn">Inscrever-se</a>
+        </article>
+        <article class="course">
+            <img src="images/curso3.jpg" alt="Curso 3">
+            <h2>Curso de Marketing Digital</h2>
+            <p>Entenda as estratégias de marketing online, incluindo SEO, campanhas de mídia social e análise de desempenho.</p>
+            <a href="#" class="btn">Inscrever-se</a>
+        </article>
+        <!-- Adicione mais cursos conforme necessário -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Catálogo de Cursos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
